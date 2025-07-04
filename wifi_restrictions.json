@@ -1,0 +1,60 @@
+{
+  "restrictions": {
+    "Roam-Parameters Enable": {
+      "key": "Roam-Parameters Enable",
+      "title": "Parameters Enable",
+      "description": "WiFi roaming parameters clarification text",
+      "restrictionType": "bool",
+      "defaultValue": false
+    },
+    "Roam-RSSI adjust step": {
+      "key": "Roam-RSSI adjust step",
+      "title": "RCPI Adjust Step",
+      "description": "RCPI adjust step summary",
+      "restrictionType": "integer",
+      "defaultValue": 2
+    },
+    "Roam-RSSI low threshold": {
+      "key": "Roam-RSSI low threshold",
+      "title": "RCPI Low Threshold",
+      "description": "RCPI low threshold summary",
+      "restrictionType": "integer",
+      "defaultValue": 60
+    },
+    "Roam-Retry times": {
+      "key": "Roam-Retry times",
+      "title": "Roaming Retry Limit",
+      "description": "Roaming retry limit summary",
+      "restrictionType": "integer",
+      "defaultValue": 3
+    },
+    "Roam-Roaming Avoid timeout": {
+      "key": "Roam-Roaming Avoid timeout",
+      "title": "Roaming Stable Timeout",
+      "description": "Roaming stable timeout summary",
+      "restrictionType": "integer",
+      "defaultValue": 5
+    },
+    "System-Disable Blacklist": {
+      "key": "System-Disable Blacklist",
+      "title": "WiFi System Disable Blacklist",
+      "description": "Blacklist summary",
+      "restrictionType": "bool",
+      "defaultValue": false
+    },
+    "System-Disable IPreachabilityDisconnect": {
+      "key": "System-Disable IPreachabilityDisconnect",
+      "title": "WiFi System Disable IP Reachability Disconnect",
+      "description": "WiFi roaming parameters clarification text",
+      "restrictionType": "bool",
+      "defaultValue": false
+    },
+    "System-Enable CAM mode": {
+      "key": "System-Enable CAM mode",
+      "title": "WiFi System Enable CAM Mode",
+      "description": "Power mode summary",
+      "restrictionType": "bool",
+      "defaultValue": false
+    }
+  }
+}
