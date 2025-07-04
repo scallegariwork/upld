@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<restrictions
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <restriction android:description="@string/wifi_roaming_parameters_clarification_text" android:title="Parameters Enable" android:key="Roam-Parameters Enable" android:defaultValue="false" android:restrictionType="bool" />
+    <restriction android:description="@string/rcpi_adjust_step_summary" android:title="@string/rcpi_adjust_step" android:key="Roam-RSSI adjust step" android:defaultValue="2" android:restrictionType="integer" />
+    <restriction android:description="@string/rcpi_low_thr_summary" android:title="@string/rcpi_low_thr" android:key="Roam-RSSI low threshold" android:defaultValue="60" android:restrictionType="integer" />
+    <restriction android:description="@string/roaming_retry_limit_summary" android:title="@string/roaming_retry_limit" android:key="Roam-Retry times" android:defaultValue="3" android:restrictionType="integer" />
+    <restriction android:description="@string/roaming_stable_timeout_summary" android:title="@string/roaming_stable_timeout" android:key="Roam-Roaming Avoid timeout" android:defaultValue="5" android:restrictionType="integer" />
+    <restriction android:description="@string/blacklist_summary" android:title="@string/wifi_system_disable_blacklist" android:key="System-Disable Blacklist" android:defaultValue="false" android:restrictionType="bool" />
+    <restriction android:description="@string/wifi_roaming_parameters_clarification_text" android:title="@string/wifi_system_disable_ipReachabilityDisconnect" android:key="System-Disable IPreachabilityDisconnect" android:defaultValue="false" android:restrictionType="bool" />
+    <restriction android:description="@string/power_mode_summary" android:title="@string/wifi_system_enable_CAM_mode" android:key="System-Enable CAM mode" android:defaultValue="false" android:restrictionType="bool" />
+</restrictions>
